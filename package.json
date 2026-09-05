@@ -1,0 +1,15 @@
+{
+  "name": "@bsvkey/x402-paywall",
+  "version": "0.1.0",
+  "description": "Put a BSV (x402) paywall in front of any HTTP API — charge per call, no accounts. Middleware or reverse proxy. Settlement-agnostic.",
+  "type": "module",
+  "main": "index.js",
+  "exports": { ".": "./index.js" },
+  "files": ["index.js", "example.js", "README.md", "LICENSE"],
+  "author": "Embryo Space Inc. (DBA BSVKey)",
+  "homepage": "https://inference.bsvkey.com/#x402",
+  "engines": { "node": ">=18" },
+  "keywords": ["x402", "bsv", "paywall", "micropayments", "api-monetization", "402", "pay-per-call", "ai-agents", "reverse-proxy", "middleware"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/BSVKey/x402-paywall" }
+}
