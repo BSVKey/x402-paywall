@@ -4,6 +4,7 @@
   "description": "Put a BSV (x402) paywall in front of any HTTP API — charge per call, no accounts. Middleware or reverse proxy. Settlement-agnostic.",
   "type": "module",
   "main": "index.js",
+  "publishConfig": { "access": "public" },
   "exports": { ".": "./index.js" },
   "files": ["index.js", "example.js", "README.md", "LICENSE"],
   "author": "Embryo Space Inc. (DBA BSVKey)",
